@@ -1,0 +1,17 @@
+liquidity time:
+  - 30
+  - 60
+  - 300
+  - 3600
+
+margin:
+  - 10
+  - 50
+  - 100
+  - 1000
+
+leverage:
+  - 50
+  - 100
+  - 150
+# Choose one of these value for each key in congfig.json file.

@@ -1,0 +1,12 @@
+{
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "longOrShort": "long",
+  "liquidityTime": 30,
+  "leverage": 10,
+  "margin": 10,
+  "coinId": 2,
+  "howManyOrders": 5,
+  "referralCode": "cav4on22"
+}
