@@ -32,6 +32,8 @@ To get started with the bot, follow these steps:
 
 ```json
 {
+  "delayEachAccount": [5, 8],
+  "timeToRestartAllAccounts": 300,
   "referralCode": "cav4on22", //enter your referral code if you dont want to help me
   "longOrShort": "long", //set null if you want to randomly generate
   "liquidityTime": 30, //set null if you want to randomly generate
