@@ -3,10 +3,12 @@
   "countdown": 300,
   "country_time": "en-US",
   "longOrShort": "long",
-  "liquidityTime": 30,
-  "leverage": 10,
-  "margin": 10,
+  "liquidityTime": 3600,
+  "leverage": 150,
+  "margin": 1000,
   "coinId": 2,
-  "howManyOrders": 5,
-  "referralCode": "cav4on22"
+  "howManyOrders": 10,
+  "referralCode": "cav4on22",
+  "delayEachAccount": [5, 8],
+  "timeToRestartAllAccounts": 300
 }
