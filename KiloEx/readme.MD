@@ -6,7 +6,7 @@
 - Group: [Link](t.me/KeoAirDropFreeNe)
 - Channel: [Link](t.me/KeoAirDropFreeNee)
 
-> Help me with your referral [Link](https://t.me/KiloExTradeBot/mini?startapp=from-kiloextrade_rcode-cav4on22)
+> Help me with your referral [Link](https://t.me/KiloExTradeBot/mini?startapp=from-kiloextrade_rcode-54lgbuih)
 
 ## 🚀 Getting Started
 
