@@ -30,16 +30,18 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-    "timeZone": "en-US",
-    "rotateProxy": false,
-    "skipInvalidProxy": false,
-    "proxyRotationInterval": 2,
-    "delayEachAccount": [5, 8],
-    "timeToRestartAllAccounts": 300,
-    "howManyAccountsRunInOneTime": 10,
-    "doTasks": true,
-    "playGames": true,
-    "referralCode": ""
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "longOrShort": "long",
+  "liquidityTime": 3600,
+  "leverage": 150,
+  "margin": 1000,
+  "coinId": 2,
+  "howManyOrders": 10,
+  "referralCode": "cav4on22",
+  "delayEachAccount": [5, 8],
+  "timeToRestartAllAccounts": 300
 }
 EOL
 }
@@ -55,7 +57,7 @@ check_configs() {
 while true; do
     clear
     echo "============================================================================"
-    echo "    name BOT SETUP AND RUN SCRIPT"
+    echo "    KiloEx BOT SETUP AND RUN SCRIPT by @MeoMunDep"
     echo "============================================================================"
     echo
     echo "Current directory: $(pwd)"
@@ -115,7 +117,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            node bot
+            node meomundep
             read -p "Press Enter to continue..."
             ;;
         4)
