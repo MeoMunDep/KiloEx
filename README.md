@@ -29,7 +29,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws uuid
+   npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto uuid --force
    ```
 
 2. **Prepare Configuration Files:**
@@ -52,7 +52,8 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
   "coinId": 2, //set null if you want to randomly generate - You can choose value from coins.json for each coin
   "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "country_time": "vi-VN", //timestamp base on the country,
+  "connectWallet: "true" //connect wallet feature
 }
 ```
 
@@ -64,15 +65,15 @@ query_id.../user...
 query_id.../user...
 ```
 
-### 3. `wallets.txt` 💼 - Cannot update yet.
+### 3. `wallets.txt` 💼 - EVM ADDRESS.
 
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
 
 ```txt - wallet address
-abc...xyz
-abc...xyz
-abc...xyz
+evm address
+evm address
+evm address
 ```
 
 ### 4. `proxies.txt` 🌐 - Proxy is an option. If you have one, fill it in; otherwise, leave it blank.
