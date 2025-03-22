@@ -7,8 +7,9 @@
   "leverage": 150,
   "margin": 1000,
   "coinId": 2,
-  "howManyOrders": 10,
+  "howManyOrders": 0,
   "referralCode": "cav4on22",
-  "delayEachAccount": [5, 8],
-  "timeToRestartAllAccounts": 300
+  "delayEachAccount": [1, 1],
+  "timeToRestartAllAccounts": 300,
+  "connectWallet": false
 }
