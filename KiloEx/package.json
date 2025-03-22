@@ -4,13 +4,8 @@
     "colors": "^1.4.0",
     "crypto-js": "^4.2.0",
     "https-proxy-agent": "^7.0.6",
-    "node-fetch": "^3.3.2",
-    "p-limit": "^6.2.0",
     "readline-sync": "^1.4.10",
     "socks-proxy-agent": "^8.0.5",
-    "user-agents": "^1.1.473",
-    "uuid": "^11.1.0",
-    "ws": "^8.18.1",
-    "xlsx": "^0.18.5"
+    "user-agents": "^1.1.473"
   }
 }
